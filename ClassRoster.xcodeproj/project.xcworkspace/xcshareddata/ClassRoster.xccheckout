@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D11AD72-57A7-4964-8268-956859C5B86A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ClassRoster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D10708337ADEE98E39D20A618C775203D09DC146</key>
+		<string>https://github.com/reevevogel/F2iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ClassRoster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D10708337ADEE98E39D20A618C775203D09DC146</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/reevevogel/F2iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D10708337ADEE98E39D20A618C775203D09DC146</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D10708337ADEE98E39D20A618C775203D09DC146</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ClassRoster</string>
+		</dict>
+	</array>
+</dict>
+</plist>

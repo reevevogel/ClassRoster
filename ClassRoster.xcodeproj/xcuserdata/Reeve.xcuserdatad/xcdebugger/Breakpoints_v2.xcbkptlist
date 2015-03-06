@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClassRoster/PersonDetailViewController.swift"
-            timestampString = "446956069.027337"
+            timestampString = "447303388.910917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "PersonDetailViewController"
             landmarkType = "3">
          </BreakpointContent>
