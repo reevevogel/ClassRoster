@@ -16,15 +16,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClassRoster/PersonDetailViewController.swift"
-            timestampString = "447303388.910917"
+            timestampString = "447734071.102019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "PersonDetailViewController"
             landmarkType = "3">
          </BreakpointContent>

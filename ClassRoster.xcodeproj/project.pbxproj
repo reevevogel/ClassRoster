@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B06E44F1AAFE3CF00F2BD3C /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06E44E1AAFE3CF00F2BD3C /* PersonCell.swift */; };
+		4B06E4511AAFF05F00F2BD3C /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B06E4501AAFF05F00F2BD3C /* People.plist */; };
 		4B11E7B61AA018D100696825 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E7B51AA018D100696825 /* Person.swift */; };
 		4B3C80931A96E94900977FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C80921A96E94900977FB2 /* AppDelegate.swift */; };
 		4B3C80951A96E94900977FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C80941A96E94900977FB2 /* ViewController.swift */; };
@@ -14,6 +16,7 @@
 		4B3C809A1A96E94900977FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C80991A96E94900977FB2 /* Images.xcassets */; };
 		4B3C809D1A96E94900977FB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C809B1A96E94900977FB2 /* LaunchScreen.xib */; };
 		4B3C80A91A96E94900977FB2 /* ClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C80A81A96E94900977FB2 /* ClassRosterTests.swift */; };
+		4B3F14161AAFDA4500AFE226 /* code-fellows-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3F14151AAFDA4500AFE226 /* code-fellows-logo.png */; };
 		4BACB51A1AA0319400C7BEAB /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BACB5191AA0319400C7BEAB /* PersonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B06E44E1AAFE3CF00F2BD3C /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		4B06E4501AAFF05F00F2BD3C /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = People.plist; sourceTree = "<group>"; };
 		4B11E7B51AA018D100696825 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
 		4B3C808D1A96E94900977FB2 /* ClassRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3C80911A96E94900977FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		4B3C80A21A96E94900977FB2 /* ClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3C80A71A96E94900977FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3C80A81A96E94900977FB2 /* ClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRosterTests.swift; sourceTree = "<group>"; };
+		4B3F14151AAFDA4500AFE226 /* code-fellows-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "code-fellows-logo.png"; path = "../../../Desktop/code-fellows-logo.png"; sourceTree = "<group>"; };
 		4BACB5191AA0319400C7BEAB /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,7 @@
 		4B3C808F1A96E94900977FB2 /* ClassRoster */ = {
 			isa = PBXGroup;
 			children = (
+				4B3F14151AAFDA4500AFE226 /* code-fellows-logo.png */,
 				4B3C80921A96E94900977FB2 /* AppDelegate.swift */,
 				4B3C80991A96E94900977FB2 /* Images.xcassets */,
 				4B3C809B1A96E94900977FB2 /* LaunchScreen.xib */,
@@ -122,6 +129,7 @@
 			children = (
 				4BACB5191AA0319400C7BEAB /* PersonDetailViewController.swift */,
 				4B3C80941A96E94900977FB2 /* ViewController.swift */,
+				4B06E4501AAFF05F00F2BD3C /* People.plist */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3C80961A96E94900977FB2 /* Main.storyboard */,
+				4B06E44E1AAFE3CF00F2BD3C /* PersonCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -222,8 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B06E4511AAFF05F00F2BD3C /* People.plist in Resources */,
 				4B3C80981A96E94900977FB2 /* Main.storyboard in Resources */,
 				4B3C809D1A96E94900977FB2 /* LaunchScreen.xib in Resources */,
+				4B3F14161AAFDA4500AFE226 /* code-fellows-logo.png in Resources */,
 				4B3C809A1A96E94900977FB2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BACB51A1AA0319400C7BEAB /* PersonDetailViewController.swift in Sources */,
+				4B06E44F1AAFE3CF00F2BD3C /* PersonCell.swift in Sources */,
 				4B11E7B61AA018D100696825 /* Person.swift in Sources */,
 				4B3C80951A96E94900977FB2 /* ViewController.swift in Sources */,
 				4B3C80931A96E94900977FB2 /* AppDelegate.swift in Sources */,
