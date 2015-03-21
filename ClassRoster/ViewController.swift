@@ -97,8 +97,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func loadFromArchive() {
         let path = getDocumentsPath()
-        let arrayFromArchive = NSKeyedUnarchiver.unarchiveObjectWithFile(path + "/MyArchive") as [Person]
+        if let arrayFromArchive = NSKeyedUnarchiver.unarchiveObjectWithFile(path + "/MyArchive") as? [Person] {
         self.people = arrayFromArchive
+        }
     }
 
     func saveToArchive(){

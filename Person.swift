@@ -20,7 +20,7 @@ class Person : NSObject, NSCoding {
     
     required init(coder aDecoder: NSCoder) {
         self.firstName = aDecoder.decodeObjectForKey("firstName") as String
-        self.lastName = aDecoder.decodeObjectForKey(lastName) as String
+        self.lastName = aDecoder.decodeObjectForKey("lastName") as String
         if let image = aDecoder.decodeObjectForKey("image") as UIImage? {
             self.image = image
         }
